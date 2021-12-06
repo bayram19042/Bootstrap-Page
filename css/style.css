@@ -1,0 +1,160 @@
+/* GENERAL STYLING */
+html { scroll-behavior: smooth; }
+*::-webkit-scrollbar { width: 3px; background-color: #eee; } 
+*::-webkit-scrollbar-track { background-color: #ccc; width:1px; border:1px solid #fff; }
+*::-webkit-scrollbar-button { display: none; }
+*::-webkit-scrollbar-thumb { background-color: #000; }
+h3 {font-size: 13px;font-weight: 400;}
+h2 {font-size: 32px;font-weight: 400;color: #1886C7;text-transform: uppercase;}
+p {	font-size: 14px;}
+.btnScrollUp {cursor: pointer;position: fixed;right: 20px;bottom: 10px;width: 40px;height: 40px;
+	background: url(../img/btnYukariGit.png) no-repeat center center;background-size: contain; }
+.navbar {
+
+	border-bottom: #1886C7 4px solid;
+}
+.navbar .navbar-brand{
+	color: #1886c7;
+	font-size: 22px;	
+}
+.bg-dark{
+	background-color: rgba(0, 0, 0, 1)!important;
+}
+.nav-link{
+	transition: color .5s ease!important;
+
+}
+.nav-link:hover{
+	 display: block;
+	 color:#1886C7!important;
+}
+
+
+/* header */
+header{
+	background: url('../img/bg-header.jpg') no-repeat center center fixed; height: 100vh; background-size: cover;
+}
+/* 100vh demek tüm sayfayı doldur demek*/
+header .overlay{
+	background-color: rgba(0, 0, 0, .7);
+}
+header .row{
+	height: 100vh;
+}
+header span{
+	color: #1886c7;
+}
+#features .fab, .fas{
+    font-size: 40px;
+}
+.features-top{
+	color: #1886C7;
+	transition: color .5s ease!important;
+}
+.features-top:hover{
+	color: #000;
+	cursor: pointer; 
+}
+#ourHistory h2{
+	border-left: 6px solid #1886C7;
+	padding-left: 30px;
+	
+
+}
+#ourHistory p{
+	line-height: 25px;
+	text-align: justify;
+}
+#team .card{
+	border: none;
+	cursor: pointer;
+}
+#team .col-md-3:hover{
+	opacity: 0.8;
+	transition:all 0.5s ease;
+}
+#team .fab{
+	font-size: 22px;
+}
+#watWeDo{
+
+background: linear-gradient(rgba(0,0,0,0.7),
+		rgba(0,0,0,0.7))fixed center center no-repeat;
+ background-image: url(../img/bg-code.jpg);
+	background-size: cover;
+}
+.modal .modal-content{
+	width: 1000px!important;
+	height: 100%!important;
+}
+#caseStudy{
+	background-color: #f4f5f9;
+	line-height: 30px;
+
+}
+#caseStudy .casearea{
+	background-color: #fff;
+	margin: 40px -50px 0 0;
+	padding: 40px;
+	position: relative;
+	z-index: 100;
+	
+
+}
+#caseStudy h3{
+	font-size: 18px;
+	margin: 30px 0 30px 0;
+	color: #1886C7;
+	text-transform: uppercase;
+}
+#caseStudy .fa{
+	font-size: 40px;
+	margin: 30px 0 30px 0;
+	color: #1886C7;
+}
+#caseStudy .btn{
+	margin-top: 15px;
+}
+#portfolio{
+	background-color: #f4f4f4;
+}
+#portfolio h3{
+	font-size: 16px;
+	font-weight: 300;
+}
+#portfolio .fa{
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+#portfolio p{
+	font-size: 12px;
+	font-weight: 300;
+	
+}
+#portfolio .imageContainer{
+	position: relative;
+	cursor: pointer;
+
+}
+#portfolio .imgOverlay{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	background-color: #000;
+	opacity: 0;
+	transition: all 1s ease;
+}
+#portfolio .imageContainer:hover .imgOverlay{
+	opacity: 0.7;
+
+
+}
+#portfolio .imageText{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transition: translate(-50%,-50%);
+}
